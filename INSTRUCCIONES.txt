@@ -1,0 +1,24 @@
+HM VENEGAS Y ASOCIADOS — LANDING MODERNA AZUL MARINO + TURQUESA
+
+Incluye index.html, styles.css, script.js, config.js y logo-hm.webp.
+
+PARA REVISAR EL DISEÑO:
+Abre index.html en Chrome desde la carpeta descomprimida.
+
+PARA PUBLICAR EN GITHUB PAGES:
+1. Crea un repositorio SEPARADO del de RanyBang; por ejemplo hm-venegas-contacto.
+2. Sube los 5 archivos directamente a la raíz del nuevo repositorio. No subas el ZIP sin descomprimir.
+3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Prueba todos los enlaces y los WhatsApp desde un celular.
+5. Cuando tengas la URL pública, genera un QR que apunte a ella. Mientras no cambie la URL, podrás actualizar el diseño sin actualizar el QR.
+
+PARA EDITAR DESPUÉS:
+Abre config.js en GitHub y edita los enlaces, mensajes de WhatsApp, correo y web. Guarda con Commit changes.
+
+CONTACTO:
+Administración: WhatsApp +52 473 114 3493
+Ventas y Soporte: WhatsApp +52 473 141 1743
+Correo: hmvenegasyasociados@gmail.com
+
+VERIFICACIÓN:
+Los botones de WhatsApp usan los teléfonos proporcionados, suponiendo que ambos están habilitados en WhatsApp. Confirmar antes de lanzar.
