@@ -1,0 +1,34 @@
+
+:root{--cyan:#13d7f3;--white:#f9fdff;--muted:#d2e5f3;--ink:#000006}
+*{box-sizing:border-box}
+html{background:#064678}
+body{margin:0;min-height:100vh;font-family:Inter,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--white);background:radial-gradient(ellipse 75% 90% at 10% 9%,#1889c6 0%,#075b93 45%,transparent 90%),radial-gradient(ellipse 95% 55% at 100% 90%,#087caf 0%,transparent 80%),linear-gradient(145deg,#075a99,#052a5b 68%,#031b3e)}
+a{color:inherit;text-decoration:none}
+.page{width:min(90%,900px);margin:24px auto 34px;padding:0 34px 55px;border:2px solid #3cdaf5;border-radius:39px;background:radial-gradient(circle at 88% 0%,#073b64 0%,transparent 24%),linear-gradient(165deg,#020408 0%,#000006 53%,#000007 100%);box-shadow:0 24px 85px #001a38a8,0 0 30px #12bde91a;overflow:hidden;position:relative}
+.page:before{content:"";position:absolute;border:1px solid #0dc1f49a;border-radius:50%;width:700px;height:280px;top:-175px;right:-290px;transform:rotate(14deg);pointer-events:none}
+.page:after{content:"";position:absolute;border-top:2px solid #00cfff;border-radius:50% 50% 0 0;width:105%;height:100px;bottom:-64px;left:-4%;transform:rotate(-4deg);pointer-events:none;box-shadow:0 -12px 24px #03b1f329}
+.hero{position:relative;text-align:center;padding:32px 0 23px;border-bottom:1px solid #008bb04d}
+.hero:after{content:"";position:absolute;width:125%;height:65px;border-bottom:2px solid #01a9e6;border-radius:50%;bottom:-10px;left:-12%;pointer-events:none}
+.brand-logo{width:min(100%,675px);height:auto;display:block;margin:0 auto;object-fit:contain;filter:drop-shadow(0 3px 15px #008bd42f)}
+.tagline{position:relative;z-index:1;font-size:clamp(14px,2vw,21px);line-height:1.5;margin:14px auto 0;color:#eaf4ff}
+.main-actions{padding:26px 0 12px}
+.section-title{position:relative;margin:0 0 20px;padding-left:20px;font-size:clamp(21px,3vw,29px);line-height:1.25;letter-spacing:-.5px}
+.section-title:before{content:"";position:absolute;left:0;top:.12em;bottom:.08em;width:7px;border-radius:2px;background:#12dfff}
+.action{display:flex;align-items:center;gap:22px;min-height:94px;padding:17px 22px;margin-bottom:12px;background:linear-gradient(110deg,#005783 0%,#053761 95%);border:1px solid #046c9e;border-radius:22px;box-shadow:inset 0 1px 0 #10b9e74d;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.action-web{background:linear-gradient(110deg,#00578b 0%,#0698af 100%);border-color:#04b6df}
+.action:hover,.social-link:hover{transform:translateY(-2px);border-color:#2bdef9;box-shadow:0 9px 25px #008eec45}
+.action:focus-visible,.social-link:focus-visible{outline:3px solid #a5f8ff;outline-offset:3px}
+.symbol{flex:0 0 72px;width:72px;height:72px;display:grid;place-items:center;color:#f6ffff;background:linear-gradient(155deg,#08b7d2,#006c9d);border-radius:18px}
+.symbol svg{width:37px;height:37px}
+.action-text{display:flex;flex:1;min-width:0;flex-direction:column;gap:3px}
+.action-text strong{font-size:clamp(16px,2.2vw,21px);font-weight:750;line-height:1.26}
+.action-text small{font-size:clamp(12px,1.55vw,15px);color:#e6f6ff;line-height:1.4;overflow-wrap:anywhere}
+.action-text .phone{font-size:clamp(14px,1.7vw,17px)}
+.out{font-size:36px;line-height:1;color:#f7ffff;margin-left:auto}
+.socials{padding:23px 0 5px;margin-top:10px;border-top:2px solid #12d8ef}
+.social-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+.social-link{min-width:0;display:flex;align-items:center;flex-direction:column;gap:8px;padding:18px 8px 19px;background:linear-gradient(155deg,#006594,#002a57);border:2px solid #14cbed;border-radius:24px;font-size:clamp(14px,2vw,20px);transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.social-mark{display:grid;place-items:center;color:white;width:42px;height:42px}
+.social-mark svg{width:38px;height:38px}
+@media(max-width:600px){.page{width:100%;margin:0;min-height:100vh;border-radius:0;border:0;padding:0 15px 42px}.hero{padding:32px 3px 28px}.brand-logo{width:min(100%,530px)}.tagline{margin-top:13px;font-size:14px}.main-actions{padding-top:22px}.section-title{font-size:21px}.action{gap:11px;padding:13px 12px;border-radius:16px;min-height:82px}.symbol{width:46px;height:46px;flex-basis:46px;border-radius:13px}.symbol svg{width:27px;height:27px}.action-text strong{font-size:14px}.action-text small{font-size:11px}.action-text .phone{font-size:12px}.out{font-size:24px}.social-grid{gap:7px}.social-link{padding:14px 5px;border-radius:15px;font-size:12px}.social-mark svg{width:28px;height:28px}.social-mark{height:32px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important}}

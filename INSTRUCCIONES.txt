@@ -1,24 +1,15 @@
-HM VENEGAS Y ASOCIADOS — LANDING MODERNA AZUL MARINO + TURQUESA
+HM VENEGAS — DISEÑO FINAL NEGRO Y AZUL
 
-Incluye index.html, styles.css, script.js, config.js y logo-hm.webp.
+Este paquete actualiza el sitio que ya publicaste en GitHub Pages.
 
-PARA REVISAR EL DISEÑO:
-Abre index.html en Chrome desde la carpeta descomprimida.
+1. Abre https://github.com/hmvenegas/HM-Venegas
+2. En la RAÍZ del repositorio sube: index.html, styles.css, config.js, script.js y logo-hm-oscuro.webp (NO subas la carpeta entera).
+3. Si GitHub indica que index.html, styles.css, config.js y script.js ya existen, sustituye esos archivos por las versiones del paquete. Puedes editar los archivos desde la web o usar la carga que permite reemplazar los del mismo nombre.
+4. El archivo logo-hm-oscuro.webp es NUEVO, súbelo antes de activar el nuevo index.html.
+5. Guarda con Commit changes en main.
+6. Abre https://hmvenegas.github.io/HM-Venegas/ y recarga usando Cmd+Shift+R.
+7. Prueba los 7 botones y sus destinos: sitio web, 2 WhatsApp, email, Instagram, Facebook y TikTok.
 
-PARA PUBLICAR EN GITHUB PAGES:
-1. Crea un repositorio SEPARADO del de RanyBang; por ejemplo hm-venegas-contacto.
-2. Sube los 5 archivos directamente a la raíz del nuevo repositorio. No subas el ZIP sin descomprimir.
-3. Settings > Pages > Deploy from a branch > main > /(root) > Save.
-4. Prueba todos los enlaces y los WhatsApp desde un celular.
-5. Cuando tengas la URL pública, genera un QR que apunte a ella. Mientras no cambie la URL, podrás actualizar el diseño sin actualizar el QR.
+El logo se adaptó para fondo negro: se preserva el símbolo original y las letras oscuras del nombre se muestran en blanco para mantener legibilidad.
 
-PARA EDITAR DESPUÉS:
-Abre config.js en GitHub y edita los enlaces, mensajes de WhatsApp, correo y web. Guarda con Commit changes.
-
-CONTACTO:
-Administración: WhatsApp +52 473 114 3493
-Ventas y Soporte: WhatsApp +52 473 141 1743
-Correo: hmvenegasyasociados@gmail.com
-
-VERIFICACIÓN:
-Los botones de WhatsApp usan los teléfonos proporcionados, suponiendo que ambos están habilitados en WhatsApp. Confirmar antes de lanzar.
+No se modifican los números ni el contenido de los mensajes en config.js. El QR, cuando lo generemos, usará la URL existente y no necesitará cambios para futuras modificaciones del contenido.
